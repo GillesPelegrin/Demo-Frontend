@@ -1,0 +1,16 @@
+<table>
+  <thead>
+  <tr>
+    <th>Date</th>
+    <th>Title</th>
+    <th>Message</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let task of tasks$ | async">
+    <td>{{ task.creationDate }}</td>
+    <td>{{ task.title }}</td>
+    <td>{{ task.message }}</td>
+  </tr>
+  </tbody>
+</table>

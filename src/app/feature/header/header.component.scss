@@ -1,0 +1,24 @@
+header {
+  min-width: 100%;
+  background-color: #04AA6D;
+  padding: 0.5rem 0;
+}
+
+.flexbox {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  margin-right: 1rem;
+  border-width: 1px;
+  border-color: white;
+  border-style: solid;
+  border-radius: 6px;
+  color: white;
+}
+
+button:hover {
+  background-color: #36bb8a;
+}
